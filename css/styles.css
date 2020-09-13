@@ -13,6 +13,11 @@ body{
     overflow: hidden;
 }
 
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
 /* Header */
 
 header{
@@ -29,9 +34,12 @@ header a{
     font-size: 16px;
 }
 
+
+header a:hover{
+    color: #0C2C39;
+}
+
 header ul{
-    margin: 0%;
-    padding: 0%;
     list-style-type: none;
 }
 
@@ -50,14 +58,58 @@ header #branding h1{
 
 header nav{
     float: right;
+    margin-top: 10px;
 }
 
 
 
 /* Main Content */
 
-img.headshotresize {
+.main-content{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100px;
+}
+
+img.headshotresize{
     max-width:20%;
     max-height:20%;
     border-radius: 50%;
-  }
+    padding-left: 50px;
+    float: left;
+}
+
+.main-content p{
+    float: right;
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50px;
+    
+}
+
+/* Mission Statement */
+
+#mission-statement{
+    font-size: 30px;
+    color: #3F8AA7;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #BBD775;
+    height: 75px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: -20px;
+    
+}
+
