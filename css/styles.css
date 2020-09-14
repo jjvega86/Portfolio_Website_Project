@@ -5,6 +5,7 @@ body{
     background-color: white;
 }
 
+
 /* Global */
 
 .container{
@@ -232,16 +233,35 @@ header nav{
     color:white;
     font-size: 20px;
     float: right;
-    padding-top: 5%;
     padding-right: 10%;
-    width: 20%;
     height: auto;
+    width: 30%;
 }
 
-#contact input {
+#contact input[type=text], select {
     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+#contact input[type=submit] {
+    width: 100%;
+    font-size: 18px;
+    background-color: #00A7E1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     
 }
+
+
 
 
 
