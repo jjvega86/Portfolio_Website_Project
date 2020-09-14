@@ -18,6 +18,11 @@ ul{
     padding: 0%;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 img.resizeleft{
     max-width:25%;
     max-height:20%;
@@ -93,13 +98,6 @@ header nav{
 }
 
 
-#main-content h1{
-    color: white;
-    text-align: left;
-    font-size: 36px;
-    padding-bottom: 2%;
-}
-
 #main-content p{
     float: right;
     color: white;
@@ -125,13 +123,51 @@ header nav{
 
 /* About Me - Main Col */
 
-/* About Me - Photo Gallery */
-
-#photo-gallery img{
-    max-height: 50%;
-    max-width: 50%;
+#aboutme-main{
+    background-color: #007EA7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 100px;
 
 }
+
+#aboutme-main h1{
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    padding-bottom: 2%;
+}
+
+#aboutme-main p{
+    float:left;
+}
+
+#aboutme-main aside{
+    float:right;
+}
+
+/* About Me - Images */
+
+#aboutphotos {
+    background-color: #1A936F;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    min-height: 100px;
+    object-fit: cover;
+}
+
+#aboutphotos #img1{
+    float:left;
+    width: 49%;
+
+}
+
+#aboutphotos #img2{
+    float:right;
+    width: 49%;
+
+}
+
 
 /* Footer */
 
