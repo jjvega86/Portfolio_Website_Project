@@ -38,6 +38,14 @@ img.resizeright{
 
 }
 
+.highlightgreen{
+    color: #1A936F;
+}
+
+.highlightorange{
+    color: orangered;
+}
+
 /* Header */
 
 header{
@@ -73,9 +81,6 @@ header #branding{
     float: left;
 }
 
-header #branding h1 .highlight{
-    color: #1A936F;
-}
 
 header #branding h1{
     margin: 0px;
@@ -125,7 +130,7 @@ header nav{
 
 #aboutme-main{
     background-color: #007EA7;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     min-height: 100px;
 
@@ -133,41 +138,46 @@ header nav{
 
 #aboutme-main h1{
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 36px;
     padding-bottom: 2%;
 }
 
 #aboutme-main p{
     float:left;
+    color: white;
+    font-size: 24px;
+    width: 600px;
+    padding-top: 2%;
 }
+
+/* About Me - Aside */
 
 #aboutme-main aside{
     float:right;
+    color: white;
+    width: 200px;
+    
+}
+
+#aboutme-main aside h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#aboutme-main aside ul{
+    font-size: 20px;
 }
 
 /* About Me - Images */
 
 #aboutphotos {
     background-color: #1A936F;
+    font-size: 26px;
+    color: white;
     padding-top: 75px;
     padding-bottom: 75px;
-    min-height: 100px;
-    object-fit: cover;
 }
-
-#aboutphotos #img1{
-    float:left;
-    width: 49%;
-
-}
-
-#aboutphotos #img2{
-    float:right;
-    width: 49%;
-
-}
-
 
 /* Footer */
 
