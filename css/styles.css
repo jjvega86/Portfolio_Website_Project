@@ -117,7 +117,7 @@ header nav{
 
 #main-content{
     background-color: #007EA7;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 100px;
     min-height: 100px;
 }
@@ -148,6 +148,20 @@ header nav{
 
 /* ABOUT ME */
 
+/* About Me - Header */
+
+#who-header{
+    background-color: #1A936F;
+    padding: 25px 0px 25px 0px;
+}
+
+#who-header h1{
+    color: white;
+    background-color: #1A936F;
+    text-align: center;
+    font-size: 50px;
+}
+
 /* About Me - Main Col */
 
 #aboutme-main{
@@ -155,14 +169,6 @@ header nav{
     padding-top: 50px;
     padding-bottom: 100px;
     min-height: 100px;
-
-}
-
-#aboutme-main h1{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    padding-bottom: 2%;
 }
 
 #aboutme-main p{
@@ -195,7 +201,7 @@ header nav{
 /* About Me - Images */
 
 #aboutphotos {
-    background-color: #1A936F;
+    background-color: #00A7E1;
     text-align: center;
     font-size: 26px;
     color: white;
