@@ -42,6 +42,8 @@ img.resizeright{
 
 .highlight{
     color: #EE7B30;
+    font-weight: bold;
+
 }
 
 .asideleft{
@@ -159,7 +161,7 @@ header nav{
 #aboutme-main h1{
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     padding-bottom: 2%;
 }
 
@@ -220,7 +222,7 @@ header nav{
     font-size: 30px;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
