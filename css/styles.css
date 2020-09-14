@@ -40,7 +40,27 @@ img.resizeright{
 }
 
 .highlight{
-    color: #F06543;
+    color: #EE7B30;
+}
+
+.asideleft{
+    float: left;
+    color: white;
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    padding-right: 5%;
+    
+}
+
+.asideright{
+    float: right;
+    color: white;
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    padding-right: 5%;
+    
 }
 
 /* Header */
@@ -203,25 +223,49 @@ header nav{
 
 }
 
-#project-content #asideleft{
-    float: left;
-    color: white;
-    font-size: 24px;
-    width: 500px;
-    text-align: center;
-    padding-right: 5%;
+
+/* CONTACT */
+
+/* Contact Form */
+
+#contact {
+    color:white;
+    font-size: 20px;
+    float: right;
+    padding-top: 5%;
+    padding-right: 10%;
+    width: 20%;
+    height: auto;
+}
+
+#contact input {
+    width: 100%;
     
 }
 
-#project-content #asideright{
-    float: right;
-    color: white;
+
+
+/* Social Buttons */
+
+#links{
+    background-color: #1A936F;
     font-size: 24px;
-    width: 500px;
+    color: #FFFFFF;
     text-align: center;
-    padding-right: 5%;
-    
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
+#links li{
+    display: inline-block;
+}
+
+#links img{
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
 
 /* Footer */
 
