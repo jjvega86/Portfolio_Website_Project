@@ -78,7 +78,7 @@ header a{
     color: #00A7E1;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -124,7 +124,7 @@ header nav{
 #main-content p{
     float: right;
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     width: 500px;
     text-align: center;
     padding-top: 8%;
@@ -176,18 +176,18 @@ header nav{
 #aboutme-main aside{
     float:right;
     color: white;
-    width: 200px;
+    width: 250px;
     padding-right: 50px;
     
 }
 
 #aboutme-main aside h3{
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
 }
 
 #aboutme-main aside ul{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* About Me - Images */
@@ -199,6 +199,16 @@ header nav{
     color: white;
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+#aboutphotos h3{
+    padding-bottom: 5%;
+}
+
+#aboutphotos li{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
 }
 
 /* PROJECTS */
@@ -261,8 +271,9 @@ header nav{
     
 }
 
-
-
+#contact input[type="submit"]:hover {
+	background-color: #EE7B30;
+}
 
 
 /* Social Buttons */
