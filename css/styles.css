@@ -18,6 +18,21 @@ ul{
     padding: 0%;
 }
 
+img.resizeleft{
+    max-width:25%;
+    max-height:20%;
+    border-radius: 75%;
+    float: left;
+}
+
+img.resizeright{
+    max-width:25%;
+    max-height:20%;
+    border-radius: 75%;
+    float: right;
+
+}
+
 /* Header */
 
 header{
@@ -68,23 +83,24 @@ header nav{
 
 
 
-/* Main Content */
+/* Main Content - Home */
 
-.main-content{
+#main-content{
     background-color: #007EA7;
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 100px;
 }
 
-img.headshotresize{
-    max-width:25%;
-    max-height:20%;
-    border-radius: 75%;
-    float: left;
+
+#main-content h1{
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    padding-bottom: 2%;
 }
 
-.main-content p{
+#main-content p{
     float: right;
     color: white;
     font-size: 24px;
@@ -95,7 +111,8 @@ img.headshotresize{
     
 }
 
-/* Mission Statement */
+
+/* Mission Statement - Home */
 
 #mission-statement{
     background-color: #1A936F;
@@ -104,6 +121,16 @@ img.headshotresize{
     text-align: center;
     padding-top: 7%;
     padding-bottom: 5%;
+}
+
+/* About Me - Main Col */
+
+/* About Me - Photo Gallery */
+
+#photo-gallery img{
+    max-height: 50%;
+    max-width: 50%;
+
 }
 
 /* Footer */
